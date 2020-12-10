@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+
+#results {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+

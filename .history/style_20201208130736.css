@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+}
+
+.results {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.product-type {
+    justify-content: flex-start;
+    flex-direction: row;
+}

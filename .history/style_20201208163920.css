@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+hidden {
+    display: none;
+}
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #fbfefb;
+}
+
+/* header styling */
+header {
+    background-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Body styling */
+body {
+    background-color:black;
+}
+
+/* Image styling */
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Form styling */
+.formWrapper {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+.form-row >label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+
+.form-row > input {
+    flex: 2;
+}
+
+.form-row > input,
+.form-row > button {
+    padding: .5em;
+}
+
+#submit-btn {
+    background-color: black;
+    color: #fbfefb;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+/* .form-row > button {
+    background: black;
+    color: white;
+    border: 0;
+} */
+
+/* results styling */
+
+
+#results-list {
+    background-color: black;
+    list-style-type: none;
+    list-style-type: upper-roman ;
+}

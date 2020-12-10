@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+hidden {
+    display: none;
+}
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #fbfefb;
+}
+
+/* header styling */
+header {
+    background-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Body styling */
+body {
+    background-color:black;
+}
+
+/* Image styling */
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Form styling */
+.formWrapper {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+.form-row >label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+
+.form-row > input {
+    flex: 2;
+}
+
+.form-row > input,
+.form-row > button {
+    padding: .5em;
+}
+
+#submit-btn {
+    background-color: black;
+    color: #fbfefb;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbfefb;
+}
+
+/* results styling */
+
+/* 
+#results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: row;
+    justify-content: center; */
+}
+
+.each-product-result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-name {
+    height: 20px;
+}
+
+.product-img {
+    height: 100px;
+    width: 100px;
+}
+
+.product-price {
+    height: 20px;
+}
+
+.product-description {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+

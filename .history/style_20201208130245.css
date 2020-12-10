@@ -1,0 +1,16 @@
+.hidden {
+    display: none;
+}
+
+.results {
+    text-align: center;
+    border-bottom: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.product-type {
+    align-items: center;
+}
