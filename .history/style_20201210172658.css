@@ -70,6 +70,7 @@ body {
 .button {
     display: flex;
     justify-content: center;
+    height: 30px;
 }
 
 #submit-btn {

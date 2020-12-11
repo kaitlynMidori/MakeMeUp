@@ -68,6 +68,7 @@ body {
 }
 
 .button {
+    width: 60cm;
     display: flex;
     justify-content: center;
 }

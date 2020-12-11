@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
-
 <body>
+<header>
+    <h1>Make Me Up</h1>
+    <h2>The Makeup Searcher</h2>
+</header>
 
-    <header>
-        <h1>Make Me Up</h1>
-        <h2>The Makeup Searcher</h2>
-    </header>
+
 
     <div id="img-container" class="img" style="padding: 5px;">
         <img src="images/smear1.png" alt="eyeshadow smear" height="200" width="200" style="padding: 5px;">
@@ -43,7 +43,10 @@
                         <option value="Nail Polish">
                     </datalist>
                 </li>
-          
+            </ul>
+    
+
+            <ul>
                 <li class="form-row">
                     <label class="search-term" for="brand">Brand Name:</label>
                     <input class="brand input" type="text" name="brand" id="brand" placeholder="Select Brand" list="brand-list">
@@ -107,34 +110,40 @@
                         <option value="Zorah Biocosmetiques">
                     </datalist>
                 </li>
-          
+            </ul>
+
+            <ul>
                 <li class="form-row">
                     <label class="search-term" for="min-price-input">Minimum Price:</label>
                     <input class="min-price input" type="number" name="min-price" id="min-price-input" placeholder="$">
                 </li>
-        
+            </ul>
+
+            <ul>
                 <li class="form-row">
                     <label class="search-term" for="max-price-input">Maximum Price:</label>
                     <input class="max-price input" type="number" name="max-price" id="max-price-input" placeholder="$">
                 </li>
-          
-                <li class="button">
+            </ul>
+
+            <ul>
+                <li class="form-row">
                     <input id="submit-btn" type="submit" value="Submit">
                 </li>
             </ul>
         </form>
-    </div>
+        </div>
         
 
         <p id="js-error-message" class="error-message"></p>
 
-        <section id="yt-results" class="hidden">
-            <h2>Makeup Tutorials</h2>
+        <!-- <section id="yt-results" class="hidden">
+            <h2>Videos</h2>
             <ul id="yt-results-list">
             </ul>
-        </section>
+        </section> -->
     <div id="results-container" class="hidden">
-        <h2>Makeup Results</h2>
+        <h2>Results</h2>
             <ul id="results-list">   
             </ul>
     </div>

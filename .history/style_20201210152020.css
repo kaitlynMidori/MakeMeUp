@@ -67,11 +67,6 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 #submit-btn {
     background-color: white;
     color: black;
@@ -130,44 +125,5 @@ body {
 }
 
 /* YouTube video Styling */
-
-#yt-results-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 12px;
-}
-
-.each-yt-result {
-    padding-left: 7px;
-    list-style-type: none;
-    background-color: white;
-    border: lightgray;
-    border-style: solid;
-    border-width: thin;
-    width: 200px;
-}
-
-.each-yt-result > .yt-title {
-    display: block;
-    margin-left: auto;
-    margin-left: auto;
-}
-
-.each-yt-result > .yt-description {
-    font-size: 12px;
-    width: 180px;
-}
-
-.each-yt-result > .yt-thumbnails {
-    display: block;
-    border: white;
-    border-style: solid;
-    border-width: thin;
-    margin-left: auto;
-    margin-right: auto;
-    height: 130px;
-    width: 150px;
-}
 
 

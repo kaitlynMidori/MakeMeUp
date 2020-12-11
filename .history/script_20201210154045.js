@@ -97,7 +97,7 @@ function getYoutubeVideo(searchTerm, brand) {
     part:'snippet',
     key:'AIzaSyDLTkOknlkbRK8xtwwM4HzWWfjG2awJktI',
     q: searchTerm + brand + ' makeup',
-    maxResults: 6,
+    maxResults: 5,
     type: 'video',
     order: 'Relevance',
     safeSearch: 'strict',
@@ -134,16 +134,16 @@ function displayYoutubeResults(responseJson) {
     $('#yt-results-list').append(
       `<li class= "each-yt-result">
       <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" target=_blank>
-        <h3>${responseJson.items[i].snippet.title} class="yt-title"</h3>
-      </a>
-      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class= "yt-thumbnails" target=_blank>
-        <img src="${responseJson.items[i].snippet.thumbnails.default.url}">
+        <h3>${responseJson.items[i].snippet.title}</h3>
       </a>
       
-      <p>Channel: <a href="https://www.youtube.com/channel/${responseJson.items[i].snippet.channelId}" class="yt-channel" target=_blank>${responseJson.items[i].snippet.channelTitle}</a></p>
+      <p>Channel: <a href="https://www.youtube.com/channel/${responseJson.items[i].snippet.channelId}" target=_blank>${responseJson.items[i].snippet.channelTitle}</a></p>
       
       <p>${responseJson.items[i].snippet.description}</p>
-    
+      
+      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class= "thumbnails" target=_blank>
+        <img src="${responseJson.items[i].snippet.thumbnails.default.url}">
+      </a>
       </li>`)
   };
 

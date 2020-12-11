@@ -68,8 +68,9 @@ body {
 }
 
 .button {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #submit-btn {

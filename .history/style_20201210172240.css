@@ -69,7 +69,7 @@ body {
 
 .button {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 #submit-btn {

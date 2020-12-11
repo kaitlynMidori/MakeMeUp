@@ -67,11 +67,6 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 #submit-btn {
     background-color: white;
     color: black;
@@ -147,27 +142,4 @@ body {
     border-width: thin;
     width: 200px;
 }
-
-.each-yt-result > .yt-title {
-    display: block;
-    margin-left: auto;
-    margin-left: auto;
-}
-
-.each-yt-result > .yt-description {
-    font-size: 12px;
-    width: 180px;
-}
-
-.each-yt-result > .yt-thumbnails {
-    display: block;
-    border: white;
-    border-style: solid;
-    border-width: thin;
-    margin-left: auto;
-    margin-right: auto;
-    height: 130px;
-    width: 150px;
-}
-
 

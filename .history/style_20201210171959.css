@@ -68,7 +68,6 @@ body {
 }
 
 .button {
-    display: flex;
     justify-content: center;
 }
 

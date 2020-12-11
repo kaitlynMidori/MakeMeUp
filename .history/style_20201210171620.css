@@ -67,11 +67,6 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 #submit-btn {
     background-color: white;
     color: black;

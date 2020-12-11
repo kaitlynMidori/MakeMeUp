@@ -142,7 +142,7 @@ function displayYoutubeResults(responseJson) {
       
       <p>Channel: <a href="https://www.youtube.com/channel/${responseJson.items[i].snippet.channelId}" class="yt-channel" target=_blank>${responseJson.items[i].snippet.channelTitle}</a></p>
       
-      <p>${responseJson.items[i].snippet.description}</p>
+      <p>${responseJson.items[i].snippet.description} class="yt-description"</p>
     
       </li>`)
   };

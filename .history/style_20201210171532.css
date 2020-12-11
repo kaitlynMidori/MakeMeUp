@@ -67,18 +67,13 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
-#submit-btn {
+/* #submit-btn {
     background-color: white;
     color: black;
     border-style: solid;
     border-width: thin;
     border-color: black;
-}
+} */
 
 /* results styling */
 

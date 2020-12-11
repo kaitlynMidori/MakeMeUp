@@ -70,6 +70,7 @@ body {
 .button {
     display: flex;
     justify-content: center;
+    padding: .5em 1em .5em 1em;
 }
 
 #submit-btn {

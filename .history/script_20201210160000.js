@@ -133,17 +133,17 @@ function displayYoutubeResults(responseJson) {
   for (let i = 0; i < responseJson.items.length; i++){
     $('#yt-results-list').append(
       `<li class= "each-yt-result">
-      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" target=_blank>
-        <h3>${responseJson.items[i].snippet.title} class="yt-title"</h3>
-      </a>
-      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class= "yt-thumbnails" target=_blank>
-        <img src="${responseJson.items[i].snippet.thumbnails.default.url}">
+      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class="yt-title" target=_blank>
+        <h3>${responseJson.items[i].snippet.title}</h3>
       </a>
       
       <p>Channel: <a href="https://www.youtube.com/channel/${responseJson.items[i].snippet.channelId}" class="yt-channel" target=_blank>${responseJson.items[i].snippet.channelTitle}</a></p>
       
-      <p>${responseJson.items[i].snippet.description}</p>
-    
+      <p>${responseJson.items[i].snippet.description} class="yt-description"</p>
+      
+      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class= "yt-thumbnails" target=_blank>
+        <img src="${responseJson.items[i].snippet.thumbnails.default.url}">
+      </a>
       </li>`)
   };
 

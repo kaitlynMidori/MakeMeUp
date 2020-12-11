@@ -80,6 +80,7 @@ function displayResults(responseJson) {
     $('#results').removeClass('hidden');
 
     //clear input after results load
+    // $('#tag').val('')
     $('#product-type').val('')
     $('#brand').val('')
     $('#min-price-input').val('');
@@ -87,66 +88,3 @@ function displayResults(responseJson) {
 };
 
 $(watchForm);
-
-// *****************Youtube video portion**************************************
-
-const youtubeURL = 'https://www.googleapis.com/youtube/v3/search';
-
-function getYoutubeVideo(searchTerm, brand) {
- const params = {
-    part:'snippet',
-    key:'AIzaSyDLTkOknlkbRK8xtwwM4HzWWfjG2awJktI',
-    q: searchTerm + brand + ' makeup',
-    maxResults: 6,
-    type: 'video',
-    order: 'Relevance',
-    safeSearch: 'strict',
-    relevanceLanguage: 'en'
-  };
-
-  const queryString = formatQueryParams(params)
-  const url = youtubeURL + '?' + queryString;
-  console.log(url);
-
-  fetch(url)
-    .then(response => {
-      if (response.ok) {
-        return response.json();
-      }
-      throw new Error(response.statusText);
-    })
-    .then(responseJson => displayYoutubeResults(responseJson))
-    .catch(err => {
-      $('#js-error-message').text(`Something went wrong: ${err.message}`);
-    });
-}
-
-function displayYoutubeResults(responseJson) {
-  console.log(responseJson);
-
-  $('#yt-results-list').empty();
-
-  if(!Object.keys(responseJson.items).length){
-    $('#yt-results-list').append(`<h2>Sorry, No Videos Found For That Make-Up and/or Brand</h2>`);
-  }
-
-  for (let i = 0; i < responseJson.items.length; i++){
-    $('#yt-results-list').append(
-      `<li class= "each-yt-result">
-      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" target=_blank>
-        <h3>${responseJson.items[i].snippet.title} class="yt-title"</h3>
-      </a>
-      <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}?vq=hd1080" class= "yt-thumbnails" target=_blank>
-        <img src="${responseJson.items[i].snippet.thumbnails.default.url}">
-      </a>
-      
-      <p>Channel: <a href="https://www.youtube.com/channel/${responseJson.items[i].snippet.channelId}" class="yt-channel" target=_blank>${responseJson.items[i].snippet.channelTitle}</a></p>
-      
-      <p>${responseJson.items[i].snippet.description}</p>
-    
-      </li>`)
-  };
-
-  $('#yt-results').removeClass('hidden');
-};
-

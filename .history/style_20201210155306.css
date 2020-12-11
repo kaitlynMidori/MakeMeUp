@@ -67,11 +67,6 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 #submit-btn {
     background-color: white;
     color: black;
@@ -126,7 +121,7 @@ body {
 .each-product-result > .product-description {
     font-size: 12px;
     font-weight: lighter;
-    width: 180px;
+    width: 175px;
 }
 
 /* YouTube video Styling */
@@ -148,17 +143,6 @@ body {
     width: 200px;
 }
 
-.each-yt-result > .yt-title {
-    display: block;
-    margin-left: auto;
-    margin-left: auto;
-}
-
-.each-yt-result > .yt-description {
-    font-size: 12px;
-    width: 180px;
-}
-
 .each-yt-result > .yt-thumbnails {
     display: block;
     border: white;
@@ -166,8 +150,12 @@ body {
     border-width: thin;
     margin-left: auto;
     margin-right: auto;
-    height: 130px;
+    height: 150px;
     width: 150px;
 }
 
+.each-yt-result > .yt-description {
+    font-size: 12px;
+    width: fit-content;
+}
 

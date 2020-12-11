@@ -67,11 +67,6 @@ body {
     padding: .5em;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
 #submit-btn {
     background-color: white;
     color: black;
@@ -149,6 +144,7 @@ body {
 }
 
 .each-yt-result > .yt-title {
+    font-size: 12;
     display: block;
     margin-left: auto;
     margin-left: auto;
