@@ -114,8 +114,8 @@ img {
 }
 
 #submit-btn {
-    width: 175px;
-    max-width: 200px;
+    width: auto;
+    max-width: 250px;
     display:flex;
     flex: 1;
     justify-content: center;

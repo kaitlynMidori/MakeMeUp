@@ -114,7 +114,7 @@ img {
 }
 
 #submit-btn {
-    width: 175px;
+    width: 200px;
     max-width: 200px;
     display:flex;
     flex: 1;
@@ -132,6 +132,13 @@ img {
 	font-weight:bold;
 	padding:10px 10px 10px 10px;
 	text-decoration:none;
+}
+
+.button {
+    width: 300px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 /* results styling */

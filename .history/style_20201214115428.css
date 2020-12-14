@@ -5,10 +5,6 @@ body, html {
 }
 
 .web-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 90%;
     min-width: 500px;
     margin: auto;
@@ -56,16 +52,16 @@ h2 {
     width: 100%;
     min-width: 500px;
     margin: auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: center; */
 }
 
 img {
     float: left;
-    max-width: 170px;
-    max-height: 170px;
+    max-width: 150px;
+    max-height: 150px;
     object-fit: scale-down;
 }
 
@@ -85,7 +81,7 @@ img {
     border-color: #fbfefb;
 }
 
-.form-container {
+.js-form {
     padding-top: 5px;
     width: 70%;
     min-width: 500px;
@@ -114,8 +110,7 @@ img {
 }
 
 #submit-btn {
-    width: 175px;
-    max-width: 200px;
+    max-width: 250px;
     display:flex;
     flex: 1;
     justify-content: center;
