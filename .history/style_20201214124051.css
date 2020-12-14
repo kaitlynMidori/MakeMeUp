@@ -8,6 +8,8 @@
     margin: auto;
 }
 
+
+
 * {
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
@@ -42,37 +44,23 @@ body, html {
 
 /* Image styling */
 
-/* #img-container {
+#img-container {
     width: 100%;
+    /* min-width: 400px; */
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-} */
+}
 
-/* img {
+img {
     float: left;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 170px;
+    max-height: 170px;
     object-fit: scale-down;
-} */
-
-.image-container {
-    display: flex;
-    width: auto;
-    height: auto;
-    /* border: 2px solid black; */
 }
 
-.image-container div {
-    flex: 1;
-}
-
-.image-container img {
-    max-width: 100%;
-    margin: auto;
-}
 /* Form styling */
 .formWrapper {
     background-color: white;

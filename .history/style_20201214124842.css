@@ -42,14 +42,15 @@ body, html {
 
 /* Image styling */
 
-/* #img-container {
+#img-container {
     width: 100%;
+    /* min-width: 400px; */
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-} */
+}
 
 /* img {
     float: left;
@@ -58,21 +59,6 @@ body, html {
     object-fit: scale-down;
 } */
 
-.image-container {
-    display: flex;
-    width: auto;
-    height: auto;
-    /* border: 2px solid black; */
-}
-
-.image-container div {
-    flex: 1;
-}
-
-.image-container img {
-    max-width: 100%;
-    margin: auto;
-}
 /* Form styling */
 .formWrapper {
     background-color: white;

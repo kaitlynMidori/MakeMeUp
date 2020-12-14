@@ -71,7 +71,7 @@ body, html {
 
 .image-container img {
     max-width: 100%;
-    margin: auto;
+    margin: 3px;
 }
 /* Form styling */
 .formWrapper {
