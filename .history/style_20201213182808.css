@@ -28,7 +28,6 @@ header {
     border-style: solid;
     border-width: thin;
     border-color: black;
-    margin-top: 5px;
 }
 
 h1 {
@@ -56,13 +55,6 @@ h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-}
-
-img {
-    float: left;
-    width:  150px;
-    height: 150px;
-    object-fit: scale-down;
 }
 
 /* #img {

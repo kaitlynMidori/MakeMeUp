@@ -28,7 +28,6 @@ header {
     border-style: solid;
     border-width: thin;
     border-color: black;
-    margin-top: 5px;
 }
 
 h1 {
@@ -60,9 +59,9 @@ h2 {
 
 img {
     float: left;
-    width:  150px;
-    height: 150px;
-    object-fit: scale-down;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 /* #img {
