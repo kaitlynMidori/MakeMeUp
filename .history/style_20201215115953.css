@@ -157,6 +157,7 @@ body, html {
 }
 
 /* YouTube video Styling */
+
 #yt-results-list {
     display: flex;
     flex-wrap: wrap;

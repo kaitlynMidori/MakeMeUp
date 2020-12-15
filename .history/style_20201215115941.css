@@ -110,6 +110,8 @@ body, html {
 }
 
 /* results styling */
+
+
 #results-list {
     display: flex;
     flex-wrap: wrap;
@@ -157,6 +159,7 @@ body, html {
 }
 
 /* YouTube video Styling */
+
 #yt-results-list {
     display: flex;
     flex-wrap: wrap;
