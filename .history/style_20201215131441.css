@@ -49,8 +49,11 @@ body, html {
 }
 
 .image-container img {
+    max-width: 100%;
     margin: auto;
-    padding: auto;
+    max-width: 200px;
+    max-height: 300px;
+    padding: .5em .5em .5em .5em;
 }
 
 /* Form styling */

@@ -49,8 +49,9 @@ body, html {
 }
 
 .image-container img {
+    max-width: 100%;
     margin: auto;
-    padding: auto;
+    padding: .5em .5em .5em .5em;
 }
 
 /* Form styling */

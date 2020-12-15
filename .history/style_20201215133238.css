@@ -42,6 +42,7 @@ body, html {
     display: flex;
     width: auto;
     height: auto;
+    border: solid white;
 }
 
 .image-container div {
