@@ -42,7 +42,6 @@ body, html {
     display: flex;
     width: auto;
     height: auto;
-    padding-top: 5px;
 }
 
 .image-container div {
@@ -66,7 +65,7 @@ body, html {
 
 .form-container {
     padding-top: 5px;
-    width: 100%;
+    width: 70%;
     margin: auto;
     border: solid black thin;
 }

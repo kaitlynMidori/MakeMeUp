@@ -42,7 +42,6 @@ body, html {
     display: flex;
     width: auto;
     height: auto;
-    padding-top: 5px;
 }
 
 .image-container div {

@@ -52,6 +52,7 @@ body, html {
 .image-container img {
     margin: auto;
     padding: auto;
+    margin-right: 2px;
 }
 
 /* Form styling */
