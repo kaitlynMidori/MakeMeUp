@@ -48,15 +48,14 @@ body, html {
 .image-container div {
     flex: 1;
 }
-
+/* 
 .image-container img {
     margin: auto;
     padding: auto;
     border: solid;
     border-style: solid;
-    border-width: thick;
-    border-color: white;
-}
+    border-color: black;
+} */
 
 /* Form styling */
 .formWrapper {

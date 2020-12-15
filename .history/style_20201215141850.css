@@ -52,10 +52,7 @@ body, html {
 .image-container img {
     margin: auto;
     padding: auto;
-    border: solid;
-    border-style: solid;
-    border-width: thick;
-    border-color: white;
+    border: solid black thin;
 }
 
 /* Form styling */
